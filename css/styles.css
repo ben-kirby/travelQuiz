@@ -1,0 +1,28 @@
+.jumbotron{
+  text-align: center;
+}
+
+.bg{
+  background-color: #80d5ff;
+
+}
+
+#center{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#centerBox{
+  background-color: #80d5ff;
+  box-shadow: 0px 0px 10px black;
+}
+
+body{
+  background-color: #1c3e63;
+}
+
+.card{
+  margin-left: auto;
+  margin-right: auto;
+}
