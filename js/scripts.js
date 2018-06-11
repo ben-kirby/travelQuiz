@@ -51,31 +51,28 @@ $(document).ready(function(){
     $(".question2").toggle();
     $(".question3").toggle();
     northkorea = northkorea + 1;
-    vegas = vegas
-
-
-     + 1;
+    vegas = vegas + 1;
   });
 //-----------question 3
-  $("#number").click(function(){
+  $("#submitQ3").click(function(){
     var result = parseInt($("#number1").val());
     if (result >= 1 && result <= 10) {
-      if (result = 1 || result = 2) {
+      if (result === 1 || result === 2) {
         $(".question3").toggle();
         $(".question4").toggle();
         vegas = vegas + 1;
       }
-      else if (result = 3 || result = 4 || result = 5) {
+      else if (result === 3 || result === 4 || result === 5) {
         $(".question3").toggle();
         $(".question4").toggle();
         dubai = dubai + 1;
       }
-      else if (result = 6 || result = 7 || result = 8) {
+      else if (result === 6 || result === 7 || result === 8) {
         $(".question3").toggle();
         $(".question4").toggle();
         patagonia = patagonia + 1;
       }
-      else if (result = 9 || result = 10) {
+      else if (result === 9 || result === 10) {
         $(".question3").toggle();
         $(".question4").toggle();
         northkorea = northkorea + 1;
@@ -86,5 +83,28 @@ $(document).ready(function(){
     }
   });
 //---------question 4
+  $("#weird").click(function(){
+    $(".question4").toggle();
+    $(".question5").toggle();
+    northkorea = northkorea +1;
+  });
 
+  $("#fish").click(function(){
+    $(".question4").toggle();
+    $(".question5").toggle();
+    patagonia = patagonia +1;
+  });
+
+  $("#oysters").click(function(){
+    $(".question4").toggle();
+    $(".question5").toggle();
+    vegas = vegas +1;
+  });
+
+  $("#egg").click(function(){
+    $(".question4").toggle();
+    $(".question5").toggle();
+    dubai = dubai +1;
+  });
+//---------question5
 });
