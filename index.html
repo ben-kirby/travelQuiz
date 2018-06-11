@@ -9,6 +9,7 @@
     <script type="text/javascript" src="js/scripts.js"></script>
     <title>Where in the world will you go next?</title>
   </head>
+
   <body>
     <div class="container">
       <div class="jumbotron">
@@ -16,68 +17,231 @@
       </div>
     </div>
 
-    <div class="card">
-      <p>TEST</p>
-    </div>
-
     <div class="container-fuid">
       <div class="row">
       <div class="col"></div>
       <div class="col-md-10" id="center">
-        <div class="well">
-          <h2>
-            This scientific test has been proven to accurately determine where in the workd you should go on vacation. Please answer the following questions.
-          </h2>
-          <button type="button" class="btn btn-secondary btn-lg">Click here to begin!</button>
-        </div>
+        <div class="card">
 
-        <div class="container"> <!--Question 1-->
-          <h3>First things first: are you more of an Ilana or an Abby?</h3>
-          <div class="row">
-            <div class="col">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="img/27-broad-city-403.w710.h473.2x.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Ilana</h5>
-                  <a href="#" class="btn btn-primary">Ilana</a>
+<!--Intro-->
+          <div class="intro">
+            <h2>
+              This scientific test has been proven to accurately determine where in the workd you should go on vacation. Please answer the following questions.
+            </h2>
+
+            <br>
+
+            <button type="button" class="btn btn-secondary btn-lg" id="begin">Click here to begin!</button>
+          </div>
+
+<!--Question 1-->
+          <div class="question1">
+            <h3>
+              First things first: are you more of an Ilana or an Abbi?
+            </h3>
+
+            <br>
+
+            <div class="row">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="img/27-broad-city-403.w710.h473.2x.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <a href="#" class="btn btn-primary" id="ilana">Ilana</a>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="col">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="img/Abbi-broad-city.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Abbi</h5>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="img/Abbi-broad-city.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <a href="#" class="btn btn-primary" id="abbi">Abbi</a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="container"> <!--Question 2-->
-          <div class="row">
-            <div class="col">
+<!--Question 2-->
+          <div class="question2">
+            <h3>Now that that's taken care of, whach cat do you identify with the most?</h3>
 
+            <br>
+
+            <div class="row">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="img/IMG_2084.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <a href="#" class="btn btn-primary" id="miso">Miso</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="img/header-cheetah-sperka.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <a href="#" class="btn btn-primary" id="cheetah">Cheetah</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="img/The-Cougar.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <a href="#" class="btn btn-primary" id="cougar">Cougar</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="img/ocelot-161922329-588be50c5f9b5874eecc09b4.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <a href="#" class="btn btn-primary" id="ocelot">Ocelot</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="container"> <!--Question 3-->
+<!--Question 3-->
+          <div class="question3">
+            <h3>Interesting choice. On a scale of 1-10 how adventurous are you?</h3>
 
-        </div>
+            <div id="number" class="smol">
+              <form>
+                <div class="form-group">
+                  <label for="number1">Number 1</label>
+                  <input id="number1" class="form-control" type="text">
+                </div>
+              <button type="submit" class="btn btn-secondary">Submit</button>
+            </div>
+          </div>
 
-        <div class="container"> <!--Question 4-->
+<!--Question 4-->
+          <div class="question4">
+            <h3>Which of these foods appeals to you the most?</h3>
 
-        </div>
+            <br>
 
-        <div class="container"> <!--Question 5-->
+            <div class="row">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="img/enhanced-buzz-6119-1437147062-7.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <a href="#" class="btn btn-primary" id="miso">Whatever this is</a>
+                  </div>
+                </div>
+              </div>
 
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="img/2cb6823c975ee09b0d93e071c71c86d5.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <a href="#" class="btn btn-primary" id="fish">Surströmming</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="img/maxresdefault.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <a href="#" class="btn btn-primary" id="cougar">Rocky Mountain oysters</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="img/220px-Century_egg_sliced_open.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <a href="#" class="btn btn-primary" id="egg">Century egg</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+<!--Question 5-->
+          <div class="question5">
+            <h3>Finally, do you even like travelling?</h3>
+
+            <br>
+
+            <button type="button" class="btn btn-primary" id="yes">Yes</button>
+            <button type="button" class="btn btn-primary" id="no">No</button>
+          </div>
         </div>
       </div>
       <div class="col"></div>
-      </div>
     </div>
+  </div>
+
+<!--Results-->
+  <div class="container">
+    <div class="results">
+<!--North Korea-->
+        <div class="northkorea">
+          <div class="card">
+            <h1>You should go to:</h1>
+            <h3>Democratic People’s Republic of Korea!</h3>
+            <figure class="figure">
+              <img src="img/e7e3a8b687cc80e4ac5959d5e6bd0e94.jpeg" class="figure-img img-fluid rounded" alt="North Korea">
+              <figcaption class="figure-caption">North Korea</figcaption>
+            </figure>
+            <p>Good luck!</p>
+          </div>
+        </div>
+<!--Patagonia-->
+        <div class="patagonia">
+          <div class="card">
+            <h1>You should go to:</h1>
+            <h3>Patagonia!</h3>
+            <figure class="figure">
+              <img src="img/1-slide-patagonia-paine-national-park-cuernos-del-paine-pano.jpg" class="figure-img img-fluid rounded" alt="Patagonia">
+              <figcaption class="figure-caption">Patagonia</figcaption>
+            </figure>
+            <p>Have fun, bring sunscreen!</p>
+          </div>
+        </div>
+<!--Dubai-->
+        <div class="dubai">
+          <div class="card">
+            <h1>You should go to:</h1>
+            <h3>Dubai</h3>
+            <figure class="figure">
+              <img src="img/dubai.jpg" class="figure-img img-fluid rounded" alt="Dubai">
+              <figcaption class="figure-caption">Dubai</figcaption>
+            </figure>
+            <p>It's a place.</p>
+          </div>
+        </div>
+<!--Vegas-->
+        <div class="vegas">
+          <div class="card">
+            <h1>You should go to:</h1>
+            <h3>Las Vegas</h3>
+            <figure class="figure">
+              <img src="img/strip_b86ddbea-3add-4995-b449-ac85d700b027.jpg" class="figure-img img-fluid rounded" alt="Vegas">
+              <figcaption class="figure-caption">Vegas</figcaption>
+            </figure>
+            <p>Welcome to the glitter gulch</p>
+          </div>
+        </div>
+    </div>
+  </div>
   </body>
 </html>
