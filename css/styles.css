@@ -62,3 +62,7 @@ body{
 .vegas{
   display: none;
 }
+
+#restart{
+  display: none;
+}
